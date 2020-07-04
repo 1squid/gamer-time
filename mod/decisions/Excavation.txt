@@ -1,0 +1,35 @@
+country_decisions = {
+	babylon_dig = {
+		potential = {
+			ai = no
+			owns = 410
+			NOT = { has_country_flag = excavated_babylon_flag }
+		}
+		allow = {
+			owns_core_province = 410
+		}
+		effect = {
+			set_country_flag = excavated_babylon_flag
+			country_event = {id = excavation.bab}
+			add_years_of_income -1
+		}
+
+	}
+	phoenicia_dig = {
+		potential = {
+			ai = no
+			owns = 378
+			NOT = { has_country_flag = excavated_phoenicia_flag }
+		}
+		allow = {
+			owns_core_province = 378
+		}
+		effect = {
+			set_country_flag = excavated_phoenicia_flag
+			country_event = {id = excavation.pho}
+			add_years_of_income -1
+		}
+
+	}
+	
+}
