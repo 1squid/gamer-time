@@ -1,0 +1,25 @@
+namespace = excavation
+country_event = {
+	id = excavation.bab
+	title = "excavation.bab.t"
+	desc = "excavation.bab.d"
+	is_triggered_only = yes
+	option = {
+		name = excavation.bab.a
+		410 = { change_culture = babylonian }
+		
+	}
+
+}
+country_event = {
+	id = excavation.pho
+	title = "excavation.pho.t"
+	desc = "excavation.pho.d"
+	is_triggered_only = yes
+	option = {
+		name = excavation.pho.a
+		378 = { change_culture = phoenician }
+		
+	}
+
+}
