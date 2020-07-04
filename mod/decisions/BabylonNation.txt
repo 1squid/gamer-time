@@ -1,0 +1,46 @@
+country_decisions = {
+	babylonian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = BAB }
+			ai = no
+			primary_culture = babylonian
+		}
+		allow = {
+			is_at_war = no
+			owns = 410 #baghdad
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10 #out of 18
+				OR = {
+				area = iraq_arabi_area
+				area = basra_area
+				area = al_jazira_area
+				area = shahrizor_area
+				}
+			}						
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = basra_area
+				area = al_jazira_area
+				area = shahrizor_area
+			}
+		}
+		effect = {
+			410 = { #baghdad
+				move_capital_effect = yes
+			}
+			change_tag = BAB
+			country_event = { id = ideagroups.1 }
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
