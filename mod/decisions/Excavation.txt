@@ -11,7 +11,7 @@ country_decisions = {
 		effect = {
 			set_country_flag = excavated_babylon_flag
 			country_event = {id = excavation.bab}
-			add_years_of_income -1
+			add_years_of_income = -1
 		}
 
 	}
@@ -27,7 +27,7 @@ country_decisions = {
 		effect = {
 			set_country_flag = excavated_phoenicia_flag
 			country_event = {id = excavation.pho}
-			add_years_of_income -1
+			add_years_of_income = -1
 		}
 
 	}
