@@ -1,5 +1,5 @@
 country_decisions = {
-	phoenician_nation = {
+	phoenicia_nation = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
@@ -35,6 +35,11 @@ country_decisions = {
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 3650
+			random_owned_province = {
+				add_base_tax = 4
+				add_base_production = 4
+				add_base_manpower = 3
+			add_prestige = 25
 			}
 		}
 		ai_will_do = {
