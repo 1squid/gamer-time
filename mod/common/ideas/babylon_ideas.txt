@@ -1,0 +1,40 @@
+BAB_ideas = {
+	free = yes
+	trigger = {
+		tag = BAB
+	}
+	start = {
+		land_morale = 0.1
+		global_trade_power = 0.2
+	}
+	bonus = {
+		max_absolutism = 10
+	}
+	bab_gardens = {
+		development_cost = -0.15
+	}
+	bab_defense = {
+		defensiveness = 0.2
+	}	
+
+	bab_code = {
+		global_unrest = -1
+		yearly_corruption = -0.1
+	}
+	bab_reform = {
+		discipline = 0.05
+		army_tradition_from_battle = 0.5
+	}
+	bab_philosophers = {
+		technology_cost = -0.06
+		idea_cost = -0.06
+	}
+
+	bab_archers = {
+		fire_damage = 0.1
+	}	
+	bab_resistance = {
+		enemy_core_creation = 0.2
+	}
+	
+}
