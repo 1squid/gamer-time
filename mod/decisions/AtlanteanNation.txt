@@ -1,0 +1,30 @@
+country_decisions = {
+	atlantean_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = ATL }
+			ai = no
+			primary_culture = atlantean
+		}
+		allow = {
+			is_at_war = no
+			owns = 1034 #the siberian peninsula			
+		}
+
+		effect = {
+			1034 = {
+				move_capital_effect = yes
+			}
+			change_tag = ATL
+			country_event = { id = ideagroups.1 }
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

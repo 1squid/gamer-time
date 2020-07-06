@@ -10,7 +10,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = excavated_babylon_flag
-			country_event = {id = excavation.bab}
+			country_event = {id = excavation.1}
 			add_years_of_income = -1
 		}
 
@@ -26,7 +26,23 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = excavated_phoenicia_flag
-			country_event = {id = excavation.pho}
+			country_event = {id = excavation.2}
+			add_years_of_income = -1
+		}
+
+	}
+	atlantis_dig = {
+		potential = {
+			ai = no
+			owns = 1034
+			NOT = { has_country_flag = excavated_atlantis_flag }
+		}
+		allow = {
+			owns_core_province = 1034
+		}
+		effect = {
+			set_country_flag = excavated_atlantis_flag
+			country_event = {id = excavation.3}
 			add_years_of_income = -1
 		}
 
