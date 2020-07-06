@@ -1,25 +1,41 @@
 namespace = excavation
 country_event = {
-	id = excavation.bab
-	title = "excavation.bab.t"
-	desc = "excavation.bab.d"
+	id = excavation.1
+	title = "excavation.1.t"
+	desc = "excavation.1.d"
 	is_triggered_only = yes
 	option = {
-		name = excavation.bab.a
+		name = excavation.1.a
 		410 = { change_culture = babylonian }
 		
 	}
 
 }
 country_event = {
-	id = excavation.pho
-	title = "excavation.pho.t"
-	desc = "excavation.pho.d"
+	id = excavation.2
+	title = "excavation.2.t"
+	desc = "excavation.2.d"
 	is_triggered_only = yes
 	option = {
-		name = excavation.pho.a
+		name = excavation.2.a
 		378 = { change_culture = phoenician }
 		
+	}
+
+}
+country_event = {
+	id = excavation.3
+	title = "excavation.3.t"
+	desc = "excavation.3.d"
+	is_triggered_only = yes
+
+	option = {
+		name = excavation.3.a
+		1034 = { change_culture = atlantean }
+		if = {
+			limit = {NOT = {total_development = 20}}
+			add_accepted_culture = atlantean
+		}
 	}
 
 }
