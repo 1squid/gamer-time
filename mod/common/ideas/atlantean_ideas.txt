@@ -15,8 +15,8 @@ ATL_ideas = {
 		auto_explore_adjacent_to_colony = yes
 	}
 	atl_leadership = {
-		leader_naval_fire = 1
-		leader_naval_shock = 1
+		navy_tradition = 1
+		navy_tradition_decay = -0.01
 	}	
 
 	atl_tax = {
