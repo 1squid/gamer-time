@@ -1,0 +1,37 @@
+spartan_monarchy = {
+	icon = "prussian_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+				tag = SPT
+				NOT = { map_setup = map_setup_random }
+			}
+		}
+	}
+	trigger = {
+		OR = {
+			is_playing_custom_nation = yes
+			religion = orthodox
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+	legacy_equivalent = prussian_monarchy_legacy
+
+	modifiers = {
+		war_exhaustion = -0.02
+		infantry_power = 0.15
+		leader_land_shock = 2
+		global_autonomy = -0.1
+		max_absolutism = 20
+		monarch_military_power = 4
+		nobles_loyalty_modifier = 0.2
+		governing_capacity_modifier = -0.75
+	}
+
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}

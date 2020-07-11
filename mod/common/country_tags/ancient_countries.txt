@@ -1,3 +1,4 @@
 BAB = "countries/Babylon.txt"
 PHO = "countries/Phoenicia.txt"
 ATL = "countries/Atlantis.txt"
+SPT = "countries/Sparta.txt"

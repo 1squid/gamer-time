@@ -1,0 +1,39 @@
+SPT_ideas = {
+	start = {
+		Land_morale = 0.2
+		infantry_power = 0.2
+	}
+	
+	bonus = {
+		prestige_from_land = 1.0
+	}	
+
+	trigger = {
+		tag = SPT
+	}
+	free = yes
+	
+	helots = {
+		global_trade_goods_size_modifier = 0.2=
+		local_unrest = +1.0
+	}
+	greek_navy = {
+		naval_morale = 0.2
+	}
+	phalanx_formation = {
+		shock_damage_received = -0.2
+	}
+	trireme = {
+		ship_durability = 0.2
+	}
+	spartan_military_training = {
+		global_manpower_modifier = 0.33
+		discpline = 0.05
+	}
+	military_focus = {
+		mil_tech_cost_modifier = -0.10
+	}
+	spartan_rule = {
+		yearly_absolutism = 0.2
+	}
+}
