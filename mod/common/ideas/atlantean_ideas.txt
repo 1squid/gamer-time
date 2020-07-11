@@ -11,7 +11,8 @@ ATL_ideas = {
 		free_dip_policy = 1
 	}
 	atl_expansion = {
-		siberian_frontier = yes
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
 	}
 	atl_leadership = {
 		leader_naval_fire = 1
