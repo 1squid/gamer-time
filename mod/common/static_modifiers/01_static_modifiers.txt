@@ -1,0 +1,5 @@
+tame_the_arctic = {
+	supply_limit_modifier = 0.4
+	allowed_num_of_buildings = 1
+	local_development_cost = -0.7
+}
