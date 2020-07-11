@@ -1,0 +1,109 @@
+atl_reform = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ATL
+	}
+	has_country_shield = yes
+	#missions here
+	atl_spread_civilization = {
+		icon = mission_cannons_firing
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = kamchatka_area
+				area = okhotsk_area
+				area = kolyma_area
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				OR = {
+					area = kamchatka_area
+					area = okhotsk_area
+					area = kolyma_area
+				}
+			}
+		}
+		effect = {
+			change_government_reform_progress = 100
+			capital_scope = {
+				add_next_institution_embracement = 25
+			}
+		}
+	}
+	atl_develop_society = {
+		
+		icon = mission_early_game_buildings
+		required_missions = { atl_spread_civilization }
+		position = 2
+		provinces_to_highlight = {
+			limit = {
+				owned_by = ROOT
+				is_capital = yes
+			}
+		}
+		trigger = {
+			capital_scope = {
+				has_building = temple
+			}
+		}
+		effect = {
+			change_government_reform_progress = 150
+			capital_scope = {
+				add_next_institution_embracement = 25
+				add_province_modifier = {
+					name = "tame_the_arctic"
+					duration = -1
+				}
+			}
+		}
+	}
+	atl_capital_develop = {
+		icon = mission_conquer_50_development
+		position = 3
+		required_missions = { atl_develop_society }
+		provinces_to_highlight = {
+			OR = {
+				area = kamchatka_area
+				area = okhotsk_area
+				area = kolyma_area
+			}
+		}
+		trigger = {
+			capital_scope = {
+				development = 9
+			}
+		}
+		effect = {
+			change_government_reform_progress = 200
+			capital_scope = {
+				add_next_institution_embracement = 25
+			}
+		}
+	}
+	atl_reach_out = {
+		icon = mission_alliances
+		required_missions = {atl_capital_develop }
+		trigger = {
+			OR = {
+			calc_true_if = {
+				all_ally = {
+					has_institution = feudalism
+				}
+				amount = 1
+			}
+			has_institution = feudalism
+			}
+		}
+		effect = {
+			change_government_reform_progress = 250
+			capital_scope = {
+				add_next_institution_embracement = 25
+			}
+		}
+	}
+}
