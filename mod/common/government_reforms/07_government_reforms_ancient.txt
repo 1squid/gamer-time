@@ -1,13 +1,9 @@
 spartan_monarchy = {
+	lock_level_when_selected = yes
 	icon = "prussian_monarchy"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			AND = {
-				tag = SPT
-				NOT = { map_setup = map_setup_random }
-			}
-		}
+		tag = SPT
 	}
 	trigger = {
 		OR = {

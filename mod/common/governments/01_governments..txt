@@ -1,0 +1,110 @@
+monarchy = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				feudalism_reform
+				autocracy_reform
+				plutocratic_reform
+				indian_sultanate_reform
+				nayankara_reform
+				misl_confederacy_reform
+				rajput_kingdom
+				#Specific:
+				grand_duchy_reform
+				daimyo
+				indep_daimyo
+				elective_monarchy
+				iqta
+				ottoman_government
+				prussian_monarchy
+				austrian_dual_monarchy
+				principality
+				tsardom
+				mamluk_government
+				feudal_theocracy
+				celestial_empire
+				shogunate
+				english_monarchy
+				mandala_reform
+				revolutionary_empire_reform
+				holy_state_reform
+				austrian_archduchy_reform
+				spartan_monarchy
+			}
+		}
+		hereditary_vs_nobility = {
+			reforms = {
+				enforce_privileges_reform
+				quash_noble_power_reform
+				enforce_trader_privileges_reform
+				bengali_reform
+				sufi_syncretism_reform
+				poligar_reform
+				khalsa_reform
+				deccani_society_reform
+				mughal_government
+				black_army_reform
+				legion_of_honor_reform
+				imperial_nobility_reform
+			}
+		}
+		bureaucracy = {
+			reforms = {
+				centralize_reform
+				decentralize_reform
+				sidhi_recruitment
+				mansabdari_reform
+				council_of_the_indies_reform
+				penal_colonies_reform
+				liberte_reform
+				fraternite_reform
+			}
+		}
+		growth_of_administration = {
+			reforms = {
+				clergy_in_administration_reform
+				of_noble_bearing_reform
+				meritocratic_focus_reform
+				dakhni_culture_reform
+				zabt_reform
+				permanent_marathas_council_reform
+				governmental_purbias_register_reform
+				revolutionary_principle_reform
+				equality_principle_reform
+				imperial_principle_reform
+			}
+		}
+		deliberative_assembly = {
+			reforms = {
+				parliamentary_reform
+				royal_decree_reform
+				aristocratic_court_reform
+				general_estates_reform
+				states_general_reform
+				legislative_sejm
+				integrated_sejmiks
+				feuillant_reform
+				two_chamber_reform
+				imperial_decree_reform
+			}
+		}
+		absolute_rule_vs_constitutional = {
+			reforms = {
+				letat_cest_moi_reform
+				regional_representation_reform
+				consulate_reform
+				military_electorate_reform
+			}
+		}
+		separation_of_power = {
+			reforms = {
+				political_absolutism_reform
+				legislative_houses_reform
+				become_a_republic_reform
+				install_theocratic_government_reform
+				emperor_of_the_revolution_reform
+				enlightened_monarchy_reform
+				become_rev_republic_reform
+			}
+		}
+	}

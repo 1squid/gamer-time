@@ -14,8 +14,8 @@ SPT_ideas = {
 	free = yes
 	
 	helots = {
-		global_trade_goods_size_modifier = 0.2=
-		local_unrest = +1.0
+		global_trade_goods_size_modifier = 0.2
+		local_unrest = 2.0
 	}
 	greek_navy = {
 		naval_morale = 0.2
@@ -27,8 +27,8 @@ SPT_ideas = {
 		ship_durability = 0.2
 	}
 	spartan_military_training = {
+		discipline = 0.05
 		global_manpower_modifier = 0.33
-		discpline = 0.05
 	}
 	military_focus = {
 		mil_tech_cost_modifier = -0.10

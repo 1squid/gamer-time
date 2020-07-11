@@ -21,10 +21,14 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				area = morea_area
+			}
 		}
 		effect = {
 			145 = { #Sparta
 				move_capital_effect = yes
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 4
 			}
 			change_tag = SPT
 			country_event = { id = ideagroups.1 }
@@ -40,6 +44,7 @@ country_decisions = {
 				}
 				change_government_to_monarchy = yes
 				add_government_reform = spartan_monarchy
+			}
 		}
 		ai_will_do = {
 			factor = 0
