@@ -26,6 +26,7 @@ country_decisions = {
 		effect = {
 			145 = { #Sparta
 				move_capital_effect = yes
+				change_province_name = Sparta
 				add_base_tax = 3
 				add_base_production = 3
 				add_base_manpower = 4

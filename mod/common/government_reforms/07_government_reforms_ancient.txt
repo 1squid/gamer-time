@@ -1,6 +1,6 @@
 spartan_monarchy = {
 	lock_level_when_selected = yes
-	icon = "prussian_monarchy"
+	icon = "spartan_monarchy"
 	allow_normal_conversion = yes
 	potential = {
 		tag = SPT
@@ -13,7 +13,6 @@ spartan_monarchy = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 100
-	legacy_equivalent = prussian_monarchy_legacy
 
 	modifiers = {
 		war_exhaustion = -0.02
